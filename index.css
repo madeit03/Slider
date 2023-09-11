@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.controls-container {
+    width: 100%;
+    height: 4rem;
+    background-color: #08142c;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.container-settings {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    align-items: center;
+    /* background-color: orange; */
+    height: 100%;
+
+}
+
+.controls-content {
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: white;
+}
+
+.play {
+    font-size: 1.7rem;
+    margin-right: .5rem;
+}
+
+.play:hover {
+    cursor: pointer;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.dotactive {
+    background-color: #d7af06;
+    width: 20px;
+    height: 20px;
+}
+
+.dot:hover {
+    cursor: pointer;
+}
+
+.container-slider {
+    margin-bottom: 2rem;
+}
+
+.img {
+    width: 100%;
+    /* height: 500px; */
+}
+
+.button-slider {
+    background-color: #08142c;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    opacity: 1;
+    position: absolute;
+    top: calc(50% - 15px);
+    /* lub */
+    /* top: 60%; */
+    padding: 1.5rem;
+
+}
+
+.button-left {
+    margin-left: 1rem;
+}
+
+.button-right {
+    margin-right: 1rem;
+}
+
+.chevron {
+    font-size: 1.2rem;
+}

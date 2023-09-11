@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slajder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <link href="index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="controls-container">
+        <div class="container-settings container">
+            <div class="controls-content">
+                <i class="fa-solid fa-pause play" id="play"></i>
+                <div data-bs-slide-to="0" class="dot"></div>
+                <div data-bs-slide-to="1" class="dot"></div>
+                <div data-bs-slide-to="2" class="dot"></div>
+                <div data-bs-slide-to="3" class="dot"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container container-slider">
+        <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/first.jpg" class="d-block img" alt="...">
+                    <!-- lub -->
+                    <!-- img/image.png -->
+                </div>
+                <div class="carousel-item ">
+                    <img src="img/second.jpg" class="d-block img" alt="...">
+                    <!-- lub -->
+                    <!-- img/image.png -->
+                </div>
+                <div class="carousel-item ">
+                    <img src="img/third.jpg" class="d-block img" alt="...">
+                    <!-- lub -->
+                    <!-- img/image.png -->
+                </div>
+                <div class="carousel-item ">
+                    <img src="img/fourth.jpg" class="d-block img" alt="...">
+                    <!-- lub -->
+                    <!-- img/image.png-->
+                </div>
+            </div>
+            <button class="carousel-control-prev button-slider button-left" type="button">
+                <i class="fa-solid fa-chevron-left chevron"></i>
+            </button>
+            <button class="carousel-control-next button-slider button-right" type="button">
+                <i class="fa-solid fa-chevron-right chevron"></i>
+            </button>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/02b7e7efb4.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
